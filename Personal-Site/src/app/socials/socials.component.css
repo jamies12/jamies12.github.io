@@ -1,16 +1,32 @@
-.container {
+/* .container {
 
 }
 
 #socialContainer {
 
-}
+} */
 
 .socials {
     list-style-type: none;
     /* color: #C4BBB6; */
 }
 
+.socialIcon {
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+
+.socials h2 {
+    display: inline-block;
+    
+}
+
+
+
 .socialLink {
     color: #C4BBB6;
+    
 }
