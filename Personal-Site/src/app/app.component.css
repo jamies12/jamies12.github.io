@@ -12,9 +12,8 @@
 }
 
 #siteLogo {
-    height: 900px;
-    width: 1750px;
     float: right;
     position: relative;
     top: -320px;
+    right: 260px;
 }

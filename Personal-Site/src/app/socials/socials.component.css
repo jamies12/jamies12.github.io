@@ -4,7 +4,12 @@
 
 #socialContainer {
     width: 480px;
+    border-radius: 2px;
+}
 
+#socialContainer:hover {
+    box-shadow: 0px 0px 18px;
+    transition: 0.23s ease;
 }
 
 .socials {
