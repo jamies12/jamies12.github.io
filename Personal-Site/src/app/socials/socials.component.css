@@ -1,14 +1,15 @@
 /* .container {
 
-}
+} */
 
 #socialContainer {
+    width: 480px;
 
-} */
+}
 
 .socials {
     list-style-type: none;
-    /* color: #C4BBB6; */
+    padding-left: 10px;
 }
 
 .socialIcon {
@@ -16,6 +17,7 @@
     position: relative;
     display: inline-block;
     margin-right: 10px;
+    vertical-align: text-bottom;
     
 }
 
@@ -24,9 +26,12 @@
     
 }
 
-
-
 .socialLink {
     color: #C4BBB6;
     
+}
+
+.socialListItem {
+    display: inline-block;
+    margin: 10px;
 }
