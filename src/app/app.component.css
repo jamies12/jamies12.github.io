@@ -18,18 +18,4 @@
     right: 260px;
 }
 
-/* Project Styling */
 
-#projectContainer {
-    color: #C2C2C3;
-    padding-left: 20px;
-}
-
-/* .listItem {
-    display: inline-block;
-    margin: 10px;
-} */
-
-.listItem li {
-    list-style-type: none;
-}
