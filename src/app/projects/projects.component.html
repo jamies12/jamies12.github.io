@@ -1,9 +1,23 @@
-<div class="container" id="projectContainer">
-  <h2 id="sectionTitle">Projects</h2>
-  <ul class="listItem">
-    <li *ngFor="let project of projects">
-      <!-- <img src="{{project.image}}" alt="{{ project.name | lowercase }}" class="projectImage"/> -->
-      <h3><a target="_blank" rel="noopener" href="{{project.url}}">{{project.name | uppercase}}</a></h3>
+<table class="container" id="projectContainer">
+  <th>
+    <tr>
+      <td><h2 id="sectionTitle">Projects</h2></td>
+    </tr>
+  </th>
+  <tbody>
+    <tr *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)">
+      <td>
+        <h3>{{project.name | uppercase}}</h3>
+      </td>
+    </tr>
+  </tbody>
+  
+  <!-- <ul class="listItem">
+    <li *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)">
+      <img src="{{project.image}}" alt="{{ project.name | lowercase }}" class="projectImage"/>
+      
     </li>
-  </ul>
-</div>
+  </ul> -->
+</table>
+
+<app-project-details [project]="selectedProject"></app-project-details>
