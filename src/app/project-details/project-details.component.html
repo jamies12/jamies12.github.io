@@ -8,11 +8,11 @@
   </ul> -->
 <!-- </div> -->
 
-<div *ngIf="project" class="col" style="color:white;">
+<div *ngIf="project" id="projectWrapper">
 
-  <h2>{{project.name | uppercase}}</h2>
+  <h2 id="projectTitle">{{project.name | uppercase}}</h2>
   <!-- <div> -->
-    <img src="{{project.image}}" alt="{{ project.name | lowercase }}" class="projectImage"/>
+    <img src="{{project.image}}" alt="{{ project.name | lowercase }}" class="img-fluid rounded mx-auto d-block" id="projectImage"/>
     <h3>{{project.date}}</h3>
     <p><span>Built with: </span>{{project.languages}}<br/>{{project.description}}</p>
 

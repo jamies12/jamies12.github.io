@@ -17,8 +17,8 @@
     <h2>Projects</h2>
   <!-- </div> -->
 
-  <div class="row">
-    <div class="col projectItem" *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)">
+  <div class="row projectItem">
+    <div class="col projectLink" *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)">
       <h3>{{project.name | uppercase}}</h3>
     </div>
   </div>

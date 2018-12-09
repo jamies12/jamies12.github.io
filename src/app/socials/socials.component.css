@@ -1,10 +1,6 @@
-/* .container {
-
-} */
-
 #socialContainer {
-    /* width: 480px; */
     border-radius: 2px;
+    background-color: #050E11;
 }
 
 #socialContainer:hover {
@@ -23,17 +19,14 @@
     display: inline-block;
     margin-right: 10px;
     vertical-align: text-bottom;
-    
 }
 
 .socials h2 {
     display: inline-block;
-    
 }
 
 .socialLink {
     color: #C4BBB6;
-    
 }
 
 .listItem {

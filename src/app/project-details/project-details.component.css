@@ -1,4 +1,19 @@
-.projectImage {
-    height: 100px;
-    width: 100px;
+#projectImage {
+    max-width: 70%;
+    margin-bottom: 5px;
+}
+
+#projectWrapper {
+    /* background-color: #04080c; */
+    background-image: linear-gradient(to bottom, #04080c00, #04080c );
+    padding: 20px;
+    color: #C2C2C3;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#projectTitle {
+    text-align: center;
+    margin-bottom: 5px;
 }
