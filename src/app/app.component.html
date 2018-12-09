@@ -1,15 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container" id="pageContainer">
-  <div class="titleContainer">
-    <h1 class="Title">
-      {{ title }}
-    </h1>
+  <div class="row no-gutters">
+    <div class="titleContainer col-4">
+      <h1 class="Title">
+         {{ title }}
+      </h1>
+    </div>
+    <div class="col-8" id="logoContainer">
+        <img src="assets/Site Logo.png" alt="Logo" id="siteLogo" />
+      </div>
   </div>
-  <app-socials></app-socials>
-  <app-projects></app-projects>
-</div>
-<div>
-  <div class="container" id="logoContainer">
-    <img src="assets/Site Logo.png" alt="Logo" id="siteLogo" />
+  
+  <div class="row">
+    <app-socials></app-socials>
   </div>
+  <div class="row no-gutters">
+    <app-projects></app-projects>
+  </div>
+  
 </div>
